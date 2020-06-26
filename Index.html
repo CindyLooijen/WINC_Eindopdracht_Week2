@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eindopdracht 2 Cindy</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script defer src="data.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <nav id="navigatie">
+            <div class="filter">
+                <input id="nieuwste-films" class="btn" type="radio" name="film-filter" value="nieuwste-films">
+                <label for="nieuste-films">Nieuwste films</label>
+            </div>
+
+            <div class="filter">
+                <input id="avengers" class="btn" type="radio" name="film-filter" value="avengers">
+                <label for="avengers">Avengers</label>
+            </div>
+
+            <div class="filter">
+                <input id="x-men" class="btn" type="radio" name="film-filter" value="x-men">
+                <label for="x-men">X-Men</label>
+            </div>
+
+            <div class="filter">
+                <input id="princess" class="btn" type="radio" name="film-filter" value="princess">
+                <label for="princess">Princess</label>
+            </div>
+
+            <div class="filter">
+                <input id="batman" class="btn" type="radio" name="film-filter" value="batman">
+                <label for="batman">Batman</label>
+            </div>
+
+            <div class="filter-input">
+                <label for=" text-input">Zoek een specifieke film:</label>
+                <input id="text-input" type="text" value="Vul hier de titel in">
+            </div>
+        </nav>
+
+        <div id="moviePosters">
+            <ul id="moviesOverview"></ul>
+        </div>
+
+    </main>
+</body>
+
+</html>
